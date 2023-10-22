@@ -1,0 +1,70 @@
+.background-image {
+    background-image: url(https://media.istockphoto.com/id/1437842852/photo/beautiful-abstract-background-with-purple-smoke-texture.webp?b=1&s=170667a&w=0&k=20&c=Q9etEBwE4B_4-Qvav836EDiaM6mtcj8HfaU2h8-YXwM=);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 20px;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: transparent;
+    color: pink;
+  }
+  
+  button {
+    background-color: purple;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: transparent;
+    color: greenyellow;
+    box-shadow: 0 0 5px pink,
+    0 0 10px rgb(45, 43, 45), 0 0 20px rgb(135, 120, 105),
+    0 0 100px rgb(49, 54, 54), 0 0 200px rgb(64, 75, 75);
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+  }
+  
+  a {
+    color: #007bff;
+  }
+
+  span {
+    color: #007bff;
+  }
+  
